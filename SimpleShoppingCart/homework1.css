@@ -1,0 +1,16 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#mainTable{
+    width: 50%;
+    background-color: burlywood;
+    text-align: center;
+}
+table#total{
+    text-align: center;
+}

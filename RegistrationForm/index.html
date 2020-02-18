@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>iframe demo</title>
+        <link rel="stylesheet" href="style.css">   
+    </head>
+
+    <body>
+        <h3>Course Registration Form</h3>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                <label for="fName">First Name</label>
+                <input type="text" id="fName" required>
+                </div>
+                <div>
+                <label for="lName">Last Name</label>
+                <input type="text" id="lName" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="others">Others
+                </div>
+                <div>
+                    <label for="hobby">Hobby</label>
+                    <input type="checkbox" name="hobby" value="singing">Singing
+                    <input type="checkbox" name="hobby" value="playing">playing
+                    <input type="checkbox" name="hobby" value="others">Others
+                </div>
+                <div>
+                    <label for="department">Department</label>
+                    <select name="department" id="department">
+                        <option value="ee">Electrical Engineering</option>
+                        <option value="ee">Computer Science</option>
+                        <option value="ee">Mathematics</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div>
+                <div id="msgBox">
+                    <label for="message">Message : </label>
+                </div>
+                <textarea name="message" id="message" cols="43" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+
+    </body>
+
+</html>
