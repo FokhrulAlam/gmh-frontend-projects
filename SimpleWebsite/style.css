@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    
+}
+div{
+    padding-bottom: 5px;
+}
+div#logo img{
+    width: 75px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div#web iframe{
+    width: 640px;
+    height: 360px;
+    margin: 2px 2px;
+}
+div.intro{
+    text-align: justify;
+}
+label{
+    color: red;
+}
+fieldset{
+    width: 25%;
+}
+/* div{
+    padding-bottom: 4px;
+} */
+div#msgBox{
+    padding-top: 4px;
+}
+table{
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-inline: 133px;
+    float: left;
+    margin-bottom: 20px;
+}
+caption{
+    color: royalblue;
+    padding-bottom: 5px;
+}
+table,th,td{
+    border: 1px;
+    border-color: magenta;
+    border-style: solid;
+    width: 30%;
+    /* text-align: left; */
+}
+th{
+    text-align: center;
+}
+td{
+    padding-left: 5px;
+}
