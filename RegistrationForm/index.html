@@ -6,24 +6,30 @@
         <meta charset="utf-8">
         <title>iframe demo</title>
         <link rel="stylesheet" href="style.css">   
+        <script src="javaScript.js"></script>
     </head>
 
     <body>
         <h3>Course Registration Form</h3>
         <form>
+            <datalist id="country">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="United States">United States</option>
+                <option value="Canada">Canada</option>
+            </datalist>
             <fieldset>
                 <legend>Personal Information</legend>
                 <div>
                 <label for="fName">First Name</label>
-                <input type="text" id="fName" placeholder="First Name" required>
+                <input type="text" id="fName" placeholder="First Name" pattern="[a-zA-Z]+" required>
                 </div>
                 <div>
                 <label for="lName">Last Name</label>
-                <input type="text" id="lName" placeholder="Last Name" required>
+                <input type="text" id="lName" placeholder="Last Name" pattern="[a-zA-Z]+" required>
                 </div>
                 <div>
                     <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Password" required>
+                    <input type="password" id="password" placeholder="Password" pattern="[a-zA-Z0-9/?$]+" required>
                 </div>
                 <div>
                     <label for="gender">Gender</label>
@@ -45,6 +51,10 @@
                         <option value="ee">Mathematics</option>
                     </select>
                 </div>
+                <div>
+                    <label for="country">Country</label>
+                    <input type="text" list="country" placeholder="Country" required>
+                </div>
             </fieldset>
             <div>
                 <div id="msgBox">
@@ -53,10 +63,13 @@
                 <textarea name="message" id="message" cols="43" rows="10" placeholder="Please put your message here"></textarea>
             </div>
             <div>
-                <button type="submit">Submit</button>
+                <button type="submit" onclick="submitMessage()">Submit</button>
                 <button type="reset">Reset</button>
             </div>
+            
         </form>
+        <div id="submitMessage"></div>
+        
 
     </body>
 
