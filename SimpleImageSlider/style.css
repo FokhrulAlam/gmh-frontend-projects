@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond;
+}
+div{
+    height: 100px;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+}
+#msg{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+#slider{
+    text-align: center;
+    background-color: #DAD5D2;
+    width: 40%;
+    height: 220px;
+    margin: auto;
+    background-image: url("https://cdn.shopify.com/s/files/1/1902/7917/products/Tulip-Strawberry-Fields-Collection_x2000_crop_center.jpg?v=1497183142");
+}
+img{
+    padding: 10px;
+}
+button{
+    color: green;
+    margin-top: 300px;
+}
+button:hover{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}

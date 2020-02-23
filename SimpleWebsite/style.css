@@ -20,11 +20,14 @@ div#web iframe{
 div.intro{
     text-align: justify;
 }
+#clearDiv{
+    clear:both;
+}
 label{
     color: red;
 }
 fieldset{
-    width: 25%;
+    width: 35%;
 }
 /* div{
     padding-bottom: 4px;
@@ -55,4 +58,14 @@ th{
 }
 td{
     padding-left: 5px;
+}
+.currentStudent{
+    margin-left: 140px;
+}
+.alumni{
+    float: right;
+    margin-right: 140px;
+}
+.registration{
+    margin-left: 500px;
 }
