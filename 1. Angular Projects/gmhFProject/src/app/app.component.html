@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SimpleWebsite</title>
+        <link rel="stylesheet" href="app.component.css">   
+    </head>
+
+    <body>
+        <h1>Study with Fokhrul</h1>
+        <!-- <div id="logo">
+            <img src="logo1.png" alt="">
+        </div> -->
+        <hr>
+        <div id="web">
+            
+            <iframe src="http://fokhrulalam.us"></iframe>
+            <iframe src="https://www.youtube.com/embed/IMK_LxHEXTY?list=PLfBcJh1tha8lBFpsgCoKzRDDZQEfWJu3z" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <hr>
+        <div class="intro">
+            <p>
+                I am Md Fokhrul Alam. I finished Master of Engineering degree in Electrical Engineering from Lamar University, Texas, USA.
+            </p>
+            <p>
+                I am interested in the field of web development and really enjoy building web apps starting from the database layer all the 
+                way to the application layer. Spring Boot interests me much as it shortens the development time of APIs. Developing the API 
+                and successfully deploying the applications are two things that give me much mental satisfaction.
+            </p>
+            <p>
+                I believe my workplace is my house and my colleagues are my family members. I uphold the principle to keep my house nice 
+                and take care of my family members.
+            </p>
+            <p>
+                I try to learn at least the basics of a new technology every few months to enrich knowledge and stay ready to take challenges. 
+                I deployed my personal projects on Amazon EC2 instances by SSH'ing into the instances through Putty and tested whether they 
+                worked properly using Postman. I created a simple website with the help of a free Bootstrap template, modified the codes with 
+                html5 and css3, and hosted the static website on an Amazon S3 bucket. I am continuously learning. Right now I am learning HTML5,
+                CSS3 and Angular. At the same time, I am preparing for AWS Certified Solutions Architect exam. I have very little idea about 
+                JavaScript. My next plan is to learn JavaScript.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <table class="currentStudent">
+                <caption><strong>Current Student</strong></caption>
+                <tr>
+                    <th>Student's ID</th>
+                    <th>Student's Name</th>
+                    <th>Courses Taken</th>
+                </tr>
+                <tr>
+                    <td>1101</td>
+                    <td>Salman Shah</td>
+                    <td>
+                        <ul type="square">
+                            <li>Java8</li>
+                            <li>Spring Boot</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1102</td>
+                    <td>Shabana</td>
+                    <td>
+                        <ul type="square">
+                            <li>JavaScript</li>
+                            <li>Angular7</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1101</td>
+                    <td>Shabnur</td>
+                    <td>
+                        <ul type="square">
+                            <li>Java8</li>
+                            <li>Spring Boot</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <table class="alumni">
+                <caption><strong>Alumni</strong></caption>
+                <tr>
+                    <th>Student's ID</th>
+                    <th>Student's Name</th>
+                    <th>Courses Taken</th>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>Razzak</td>
+                    <td>
+                        <ul type="square">
+                            <li>PHP</li>
+                            <li>FORTRAN</li>
+                            <li>Java</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Mousumi</td>
+                    <td>
+                        <ul type="square">
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>javaScript</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>Jafor Iqbal</td>
+                    <td>
+                        <ul type="square">
+                            <li>Java8</li>
+                            <li>Spring Boot</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="clearDiv">
+
+        </div>
+        <div class="registration">
+            <h3 id="regHeader">Course Registration Form</h3>
+            <form class="info">
+                <datalist id="country">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                </datalist>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                    <label for="fName">First Name</label>
+                    <input type="text" id="fName" placeholder="First Name" pattern="[a-zA-Z]+" required>
+                    </div>
+                    <div>
+                    <label for="lName">Last Name</label>
+                    <input type="text" id="lName" placeholder="Last Name" pattern="[a-zA-Z]+" required>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password" pattern="[a-zA-Z0-9/?$]+" required>
+                    </div>
+                    <div>
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="others">Others
+                    </div>
+                    <div>
+                        <label for="hobby">Hobby</label>
+                        <input type="checkbox" name="hobby" value="singing">Singing
+                        <input type="checkbox" name="hobby" value="playing">playing
+                        <input type="checkbox" name="hobby" value="others">Others
+                    </div>
+                    <div>
+                        <label for="department">Department</label>
+                        <select name="department" id="department">
+                            <option value="ee">Electrical Engineering</option>
+                            <option value="ee">Computer Science</option>
+                            <option value="ee">Mathematics</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="country">Country</label>
+                        <input type="text" list="country" placeholder="Country" required>
+                    </div>
+                </fieldset>
+                <div>
+                    <div id="msgBox">
+                        <label for="message">Message : </label>
+                    </div>
+                    <textarea name="message" id="message" cols="43" rows="10" placeholder="Please put your message here"></textarea>
+                </div>
+                <div>
+                    <button type="submit" onclick="submitMessage()">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+            <div id="submitMessage"></div>
+        </div>
+    </body>
+
+</html>
+
+
+<router-outlet></router-outlet>

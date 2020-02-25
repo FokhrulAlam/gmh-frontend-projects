@@ -1,0 +1,127 @@
+
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    border: dotted 2px yellowgreen;
+    animation-name: logoAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logoAnimation{
+    0% {width: 70px;
+        height: 70px;}
+    15% {width: 60px;
+        height: 60px;}
+    30% {width: 50px;
+        height: 50px;}
+    45% {width: 40px;
+        height: 40px;}
+}
+
+.input-text{
+    display: inline;
+    margin: 0;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 10px;
+}
+
+.list ul li button{
+    position: absolute;
+    right: 0%;
+    background: #f34541;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 0.4rem;
+    display: inline-block;
+    border: none;
+}
+
+.add-btn{
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #7313cb;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 0.4rem;
+    display: inline-block;
+    border: none;
+}
+
+.app-title{
+    text-align: center;
+    color: rgb(196, 16, 16);
+    font-size: 70px;
+    animation-name: titleAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titleAnimation{
+    0% {font-size: 70px;
+        color: rgb(196, 16, 16);}
+    15% {font-size: 60px;
+        color: rgb(230, 27, 186);}
+    30% {font-size: 50px;
+        color: rgb(36, 39, 230);}
+    45% {font-size: 40px;
+        color: rgb(22, 198, 221);}
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.list ul li{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    line-height: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    padding: 10px;
+    position: relative;
+}
+
+.container{
+    color: rgb(16, 25, 163);
+    max-width: 500px;
+    margin: auto;
+}
+
+.homepage{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 55px;
+    color: red;
+}
+
+/* .container h3{
+    text-align: left;
+    animation-name: titleAnimation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titleAnimation{
+    0% {text-align: left;}
+    15% {text-align: right;}
+    30% {text-align: center;}
+    45% {text-align: justify;}
+} */

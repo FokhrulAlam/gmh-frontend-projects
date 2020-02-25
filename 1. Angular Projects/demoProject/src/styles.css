@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #000;
+    animation-name: bodyAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+/* The animation code */
+@keyframes bodyAnimation {
+    0% {background-color: #000;}
+    14% {background-color: #2C3335;}
+    29% {background-color: #2F363F;}
+    44% {background-color: #333945;}
+}
